@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <header>
+        <h1>Pomodoro Timer</h1>
+    </header>
+    <div class="container">
+        <div class="spotify-widget">
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="timer">
+            <div class="time">
+                <div class="time-controls">
+                    <img id="upMin" src="img/arrow.png" alt="Up arrow" class="arrow up">
+                    <span id="minutes">25</span>
+                    <img id="downMin" src="img/arrow.png" alt="Down arrow" class="arrow down">
+                </div>
+                <div class="colon">:</div>
+                <div class="time-controls">
+                    <img id="upSec" src="img/arrow.png" alt="Up arrow" class="arrow up">
+                    <span id="seconds">00</span>
+                    <img id="downSec" src="img/arrow.png" alt="Down arrow" class="arrow down">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="start" class="start">Start</button>
+                <button id="stop" class="stop">Stop</button>
+                <button id="reset" class="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

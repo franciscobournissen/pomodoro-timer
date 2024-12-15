@@ -1,0 +1,114 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    height: 100vh;
+    background-color: #D9D9D9;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    padding-top: 2rem;
+    align-items: center; /* Alineación vertical */
+    justify-content: center; /* Centrado horizontal */
+    border-radius: 10px;
+    gap: 5rem;
+;
+}
+
+.spotify-widget iframe {
+    width: 20rem;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px;
+}
+
+.timer {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.time-controls {
+    display: flex;
+    flex-direction: column; /* Coloca las flechas y el número en una columna */
+    align-items: center; /* Centra horizontalmente */
+    position: relative;
+}
+
+.time-controls .arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer; /* Indica que son interactivos */
+}
+
+.time-controls .arrow.up {
+    margin-bottom: 0.5rem; /* Espaciado entre la flecha superior y el número */
+    rotate: 90deg;
+}
+
+.time-controls .arrow.down {
+    margin-top: 0.1rem; /* Espaciado entre la flecha inferior y el número */
+    rotate: -90deg;
+}
+
+.colon {
+    font-size: 6rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.buttons .start {
+    background-color: #28a745;
+}
+
+.buttons .stop {
+    background-color: #E35F5F;
+}
+
+.buttons .reset {
+    background-color: #7B7B7B;
+}
+
+.timer img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
