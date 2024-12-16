@@ -15,7 +15,11 @@
     </header>
     <div class="container">
         <div class="spotify-widget">
-            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div class="playListMod">
+                <input type="text" id="playlist" placeholder="Enter playlist URL">
+                <button id="submit">Update</button>
+            </div>
         </div>
         <div class="timer">
             <div class="time">

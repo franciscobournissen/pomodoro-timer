@@ -97,3 +97,12 @@ resetButton.addEventListener("click", () => {
         interval = null;
     }
 });
+//prettier-ignore
+document.getElementById('submit').addEventListener('click', function() {
+    const newPlaylistUrl = document.getElementById('playlist').value;
+    
+    // Obtenemos el iframe
+    const spotifyIframe = document.getElementById('spotifyPlayer');
+    
+    spotifyIframe.src = newPlaylistUrl;
+});
